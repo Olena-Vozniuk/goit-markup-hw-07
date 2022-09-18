@@ -1,14 +1,4 @@
-.services-title,
-.team-title {
-  color: var(--title-text-color);
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-}
+
 img {
   display: block;
   max-width: 100%;
@@ -21,7 +11,7 @@ img {
 .services-list {
   display: flex;
 }
-.services-list .item:not(:last-child) {
+.services-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -31,7 +21,7 @@ img {
   position: relative;
 }
 
-.services-overlay {
+.services-list__overlay {
   position: absolute;
   bottom: 0;
 
@@ -41,7 +31,7 @@ img {
   padding-top: 27px;
 }
 
-.services-txt {
+.services-list__txt {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

@@ -1,4 +1,4 @@
-.feauters-title {
+.feauters-list__title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -6,25 +6,25 @@
     text-transform: uppercase;
     margin-bottom: 10px;
   }
+
   .feauters-list {
     display: flex;
   }
   
-  .feauters-bg {
+  .feauters-list__img {
     background-color: var(--light-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
     height: 120px;
-  
     margin-bottom: 30px;
   }
   
-  .feauters-list .item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .feauters-list .item {
+  .feauters-list__item {
     width: 270px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
